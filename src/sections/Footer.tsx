@@ -63,7 +63,7 @@ const Footer = () => {
                         <div className="mt-4">
                             <p>For more information, contact:</p>
                             <p>• Sakshi Sahu: +91 7217797045</p>
-                            <p className="mb-4">• Adishree: +91 9149368190</p>
+                            <p className="mb-4">• Adhishree: +91 9149368190</p>
                             <p>Email: <a href="mailto:igdtuieee@gmail.com" className="underline">igdtuieee@gmail.com</a></p>
                         </div>
                     </div>
