@@ -2,7 +2,6 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { FAQDATA } from "../constants";
-import './1.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

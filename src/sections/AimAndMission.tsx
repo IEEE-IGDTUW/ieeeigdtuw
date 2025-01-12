@@ -5,7 +5,6 @@ import { AIM } from '../constants/index';
 import { FaRegLightbulb, FaLaptopCode, FaRegHandshake, FaHistory } from 'react-icons/fa';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import './1.css';
 
 const AimAndMission = () => {
     const icons = [FaRegLightbulb, FaLaptopCode, FaRegHandshake, FaHistory];

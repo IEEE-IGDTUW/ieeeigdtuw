@@ -41,8 +41,30 @@ import random14 from "@/assets/sliderPhotos/event4_img3.jpg";
 import random15 from "@/assets/sliderPhotos/event5_img2.jpg";
 import random16 from "@/assets/sliderPhotos/event5_img3.jpg";
 
+import judge1 from "@/assets/extraPics/admin.jpg"
+import judge2 from "@/assets/extraPics/admin.jpg"
+import judge3 from "@/assets/extraPics/admin.jpg"
+import judge4 from "@/assets/extraPics/admin.jpg"
+
+import speaker1 from "@/assets/extraPics/admin.jpg"
+import speaker2 from "@/assets/extraPics/admin.jpg"
+import speaker3 from "@/assets/extraPics/admin.jpg"
+import speaker4 from "@/assets/extraPics/admin.jpg"
+
 import ieeeLogo from "@/assets/logos/white_logo.png"
 import wieLogo from "@/assets/logos/wieLogo.png"
+
+import pastEvent1 from "@/assets/pastEventsSlider/pastEvent1.jpg"
+import pastEvent2 from "@/assets/pastEventsSlider/pastEvent2.jpg"
+import pastEvent3 from "@/assets/pastEventsSlider/pastEvent3.jpg"
+import pastEvent4 from "@/assets/pastEventsSlider/pastEvent4.jpg"
+import pastEvent5 from "@/assets/pastEventsSlider/pastEvent5.jpg"
+import pastEvent6 from "@/assets/pastEventsSlider/pastEvent6.jpg"
+import pastEvent7 from "@/assets/pastEventsSlider/pastEvent7.jpg"
+import pastEvent8 from "@/assets/pastEventsSlider/pastEvent8.jpg"
+import pastEvent9 from "@/assets/pastEventsSlider/pastEvent9.jpg"
+import pastEvent10 from "@/assets/pastEventsSlider/pastEvent10.jpg"
+
 
 export const TEAM = [
   {
@@ -298,6 +320,31 @@ export const FAQDATA = [
   },
 ];
 
+export const WIEFAQDATA = [
+  {
+    question: "Is it free to participate in this hackathon?",
+    answer: "Yes, you can register and participate for free.",
+  },
+  {
+    question: "What is the eligibility criteria for participation?",
+    answer:
+      "Teams should consist of 2 to 4 members from the same batch, with at least one female member being mandatory.",
+  },
+  {
+    question: "Can students from other colleges participate?",
+    answer: "Yes, students from any college are welcome to participate.",
+  },
+  {
+    question: "Are non-IGDTUW students allowed to attend on-campus events?",
+    answer:
+      "Yes, students from other colleges can attend on-campus events, but prior registration is required.",
+  },
+  {
+    question: "Can we form inter-college teams?",
+    answer:
+      "Yes, inter-college teams are allowed as long as they meet the eligibility criteria.",
+  },
+];
 
 export const FOOTERDATA = [
   {
@@ -311,6 +358,7 @@ export const FOOTERDATA = [
   }
 
 ];
+
 
 export const AIM = [
   {
@@ -331,5 +379,75 @@ export const AIM = [
   },
 ];
 
+export const JUDGES = [
+    {
+        name: 'Dr. John Doe',
+        profession: 'AI Researcher',
+        linkedin: 'https://linkedin.com/in/johndoe',
+        description: 'An expert in machine learning and AI-driven technologies, with several years of research and development experience.',
+        image:judge1,
+    },
+    {
+        name: 'Jane Smith',
+        profession: 'Software Engineer',
+        linkedin: 'https://linkedin.com/in/janesmith',
+        description: 'A passionate software engineer specializing in full-stack development and cloud computing.',
+        image:judge2,
+    },
+    {
+        name: 'Michael Lee',
+        profession: 'Data Scientist',
+        linkedin: 'https://linkedin.com/in/michaellee',
+        description: 'A data scientist with a knack for predictive modeling and data visualization.',
+        image: judge3,
+    },
+    {
+        name: 'Sarah Johnson',
+        profession: 'Blockchain Expert',
+        linkedin: 'https://linkedin.com/in/sarahjohnson',
+        description: 'A blockchain enthusiast focused on decentralized applications and smart contracts.',
+        image: judge4,
+    },
+];
+
+export const SPEAKERS = [
+  {
+    name: 'Dr. John Doe',
+    designation: 'CEO & Founder of InnovateTech',
+    description: 'Dr. John Doe is a leading innovator in the tech industry with over 20 years of experience. He has helped shape the future of AI and machine learning.',
+    image: speaker1,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/johndoe',
+    },
+  },
+  {
+    name: 'Jane Smith',
+    designation: 'Lead Developer at CodeCraft',
+    description: 'Jane Smith is a passionate software engineer and open-source advocate. With a focus on backend development, she is dedicated to building scalable and efficient systems.',
+    image: speaker2,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/janesmith',
+    },
+  },
+  {
+    name: 'Michael Johnson',
+    designation: 'Product Manager at CloudShift',
+    description: 'Michael Johnson leads product development at CloudShift, with a special focus on cloud-based solutions. He brings a deep understanding of user experience and product strategy.',
+    image: speaker3,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/michaeljohnson',
+    },
+  },
+  {
+    name: 'Emily Davis',
+    designation: 'Founder of EcoInnovators',
+    description: 'Emily Davis is an entrepreneur and environmental advocate, working on sustainable tech solutions to help businesses reduce their carbon footprint.',
+    image: speaker4,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/emilydavis',
+    },
+  },
+];
 
 
+export const PASTEVENTS = [pastEvent1,pastEvent2,pastEvent3,pastEvent4,pastEvent5,pastEvent6,pastEvent7,pastEvent8,pastEvent9,pastEvent10]
