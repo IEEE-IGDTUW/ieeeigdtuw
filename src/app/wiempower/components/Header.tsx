@@ -258,21 +258,21 @@ const Navbar = () => {
                             }}
                         >
                             {[
-                                { text: 'IEEE IGDTUW', action: () => window.location.href = '/' },
+                                { text: 'IEEE IGDTUW', onClick: () => (window.location.href = './') },
                                 { text: 'About', action: () => handleCustomScroll('about') },
                                 // { text: 'Events', action: () => handleCustomScroll('events') },
                                 { text: 'Timeline', action: () => handleCustomScroll('timeline') },
                                 { text: 'Registration', action: handleRegistrationClick },
-                                { text: 'Contact', action: () => handleCustomScroll('contact') }
+                                { text: 'Contact', action: () => handleCustomScroll('contact') },
                             ].map((item, index) => (
                                 <motion.div
                                     key={index}
                                     variants={{
                                         open: { opacity: 1, y: 0 },
-                                        closed: { opacity: 0, y: -20 }
+                                        closed: { opacity: 0, y: -20 },
                                     }}
-                                    transition={{ duration: 0.3, ease: "easeOut" }}
-                                    onClick={item.action}
+                                    transition={{ duration: 0.3, ease: 'easeOut' }}
+                                    onClick={item.onClick || item.action} // Use onClick for IEEE IGDTUW and action for others
                                     className="text-gray-200 cursor-pointer hover:text-[#a855f7] transition-colors duration-300"
                                 >
                                     {item.text}
