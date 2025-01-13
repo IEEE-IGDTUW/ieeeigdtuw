@@ -150,7 +150,7 @@ const Navbar = () => {
                         className="hover:animate-slowspin"
                     />
                 </div>
-
+                {/*sample */}
                 <div className="hidden md:flex flex-grow items-center justify-center">
                     <div className="flex items-center justify-between w-[700px] h-auto border border-[rgba(112,66,248,0.38)] bg-[#0300145e] px-[20px] py-[10px] rounded-full">
                         <div
