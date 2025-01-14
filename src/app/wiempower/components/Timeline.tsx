@@ -17,41 +17,41 @@ interface EventItem {
 
 const EVENTS: EventItem[] = [
     {
-        date: "13th January 2025",
-        endDate: "22th January 2025",
+        date: "15th January 2025",
+        endDate: "24th January 2025",
         title: "Registration Opens",
         description: "Begin your journey by registering your team through our online portal. Ensure all team details and areas of interest are properly documented.",
         hasButton: true,
         buttonText: "Register Here",
     },
     {
-        date: "22nd January 2025",
+        date: "24th January 2025",
         title: "Ideation Phase Begins",
         description: "Start brainstorming your innovative solutions and submit your preliminary project slides.",
     },
     {
-        date: "24th January 2025",
+        date: "26th January 2025",
         title: "Ideation Phase End",
         description: "Last day to register your team and submit your project slides. Ensure all details are finalized.",
     },
     {
-        date: "25th January 2025",
+        date: "27th January 2025",
         endDate: "29th January 2025",
         title: "Development Phase & Mentorship",
         description: "Seek help from mentors and continue developing your project. This phase will be conducted online.",
     },
     {
-        date: "29th January 2025",
+        date: "31th January 2025",
         title: "Development Phase Ends",
         description: "Final submissions of all projects. Ensure your project is complete and ready for presentation.",
     },
     {
-        date: "30th January 2025",
+        date: "2nd February 2025",
         title: "Shortlisted Teams Announced",
         description: "Teams shortlisted for the finals will be announced, and they are required to present their final projects offline at IGDTUW.",
     },
     {
-        date: "31st January 2025",
+        date: "3rd February 2025",
         title: "Final Presentations & Results",
         description: "All shortlisted top teams must appear at the IGDTUW campus to present their projects to the judges and final judgement will be given on the same day.",
         isOffline: true,
