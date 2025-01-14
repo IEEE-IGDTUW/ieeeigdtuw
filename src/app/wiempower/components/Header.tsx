@@ -153,7 +153,7 @@ const Navbar = () => {
                 {/*sample */}
                 <div className="hidden md:flex flex-grow items-center justify-center">
                     <div className="flex items-center justify-between w-[700px] h-auto border border-[rgba(112,66,248,0.38)] bg-[#0300145e] px-[20px] py-[10px] rounded-full">
-                        <Link href="/wiempower2/" passHref>
+                        <Link href="https://ieee-igdtuw.github.io/ieeeigdtuw" passHref>
                             <div className={navLinkClass('home')}>
                                 IEEE IGDTUW
                             </div>
@@ -176,7 +176,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="hidden md:flex flex-row gap-5 items-center">
                     {Socials.map((social) => (
                         <a
