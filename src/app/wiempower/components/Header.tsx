@@ -153,50 +153,30 @@ const Navbar = () => {
                 {/*sample */}
                 <div className="hidden md:flex flex-grow items-center justify-center">
                     <div className="flex items-center justify-between w-[700px] h-auto border border-[rgba(112,66,248,0.38)] bg-[#0300145e] px-[20px] py-[10px] rounded-full">
-                        <div
-                            onClick={() => window.location.href = './#/home'}
-                            className={navLinkClass('home')}
-                        >
-                            IEEE IGDTUW
-                        </div>
+                        <Link href="/wiempower2/" passHref>
+                            <div className={navLinkClass('home')}>
+                                IEEE IGDTUW
+                            </div>
+                        </Link>
 
-                        <div
-                            onClick={() => handleCustomScroll('about')}
-                            className={navLinkClass('about')}
-                        >
+                        <div onClick={() => handleCustomScroll('about')} className={navLinkClass('about')}>
                             About
                         </div>
 
-                        {/* <div
-                            onClick={() => handleCustomScroll('events')}
-                            className={navLinkClass('events')}
-                        >
-                            Events
-                        </div> */}
-
-                        <div
-                            onClick={() => handleCustomScroll('timeline')}
-                            className={navLinkClass('timeline')}
-                        >
+                        <div onClick={() => handleCustomScroll('timeline')} className={navLinkClass('timeline')}>
                             Timeline
                         </div>
 
-                        <div
-                            onClick={handleRegistrationClick}
-                            className={navLinkClass('registration')}
-                        >
+                        <div onClick={handleRegistrationClick} className={navLinkClass('registration')}>
                             Registration
                         </div>
 
-                        <div
-                            onClick={() => handleCustomScroll('contact')}
-                            className={navLinkClass('contact')}
-                        >
+                        <div onClick={() => handleCustomScroll('contact')} className={navLinkClass('contact')}>
                             Contact
                         </div>
                     </div>
                 </div>
-
+                
                 <div className="hidden md:flex flex-row gap-5 items-center">
                     {Socials.map((social) => (
                         <a
