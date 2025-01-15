@@ -55,7 +55,7 @@ const EVENTS: EventItem[] = [
         title: "Final Presentations & Results",
         description: "All shortlisted top teams must appear at the IGDTUW campus to present their projects to the judges and final judgement will be given on the same day.",
         isOffline: true,
-        location: "https://www.google.com/maps/d/viewer?hl=en&ie=UTF8&t=h&source=embed&msa=0&ll=28.6655361%2C77.23200789999999&spn=0.007995%2C0.009109&z=17&mid=1rQQ1fphljUW4dQvPCGxo6EU_vO4",
+        location: "https://maps.app.goo.gl/gr4zNjW1cQdeVUt39",
         venue: "Auditorium, IGDTUW",
         address: "Madrasa Road, Opposite St. James Church, Kashmere Gate, Delhi-110006",
     },
