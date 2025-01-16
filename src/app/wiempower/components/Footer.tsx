@@ -87,7 +87,7 @@ const Footer = () => {
                     </div>
 
                     <motion.div className="mt-8 text-center text-sm">
-                        <p>This website is developed by IEEE Web Admin. Team</p>
+                        <p>Developed by IEEE IGDTUW Web Admin team</p>
                         <p>&copy; IEEE IGDTUW 2024 | All rights reserved.</p>
                     </motion.div>
                 </motion.div>

@@ -124,7 +124,7 @@ const Footer = () => {
                     {/* Footer Bottom */}
                     <div className="mt-8">
                         <p>
-                            This website is developed by IEEE Web Admin Team.
+                            Developed by IEEE IGDTUW Web Admin team
                         </p>
                         <p>&copy; IEEE IGDTUW 2024 | All rights reserved.</p>
                     </div>
