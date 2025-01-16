@@ -158,10 +158,16 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                     )}
 
                     {event.hasButton && (
-                        <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300">
+                        <a
+                            href="https://wiegnite2025.devfolio.co/" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300"
+                        >
                             {event.buttonText}
-                        </button>
+                        </a>
                     )}
+
                 </div>
             </div>
         </motion.div>

@@ -183,16 +183,22 @@ export default function Hero() {
                 </p>
 
                 {/* Register Button */}
-                <motion.button
+                <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1.5, duration: 1 }}
-                  className="magical-button px-8 md:px-12 py-3 md:py-4
-                           text-white text-lg md:text-xl font-bold rounded-lg
-                           shadow-lg transition-all duration-500"
+                  className="magical-button-container"
                 >
-                  REGISTER NOW
-                </motion.button>
+                  <motion.button
+                    onClick={() => window.open("https://wiegnite2025.devfolio.co/", "_blank")}
+                    className="magical-button px-8 md:px-12 py-3 md:py-4
+               text-white text-lg md:text-xl font-bold rounded-lg
+               shadow-lg transition-all duration-500"
+                  >
+                    REGISTER NOW
+                  </motion.button>
+                </motion.div>
+
 
                 {/* Description */}
                 <motion.div

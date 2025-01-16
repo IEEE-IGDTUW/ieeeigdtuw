@@ -167,9 +167,13 @@ const Navbar = () => {
                             Timeline
                         </div>
 
-                        <div onClick={handleRegistrationClick} className={navLinkClass('registration')}>
+                        <div
+                            onClick={() => window.location.href = 'https://wiegnite2025.devfolio.co/'}
+                            className={navLinkClass('registration')}
+                        >
                             Registration
                         </div>
+
 
                         <div onClick={() => handleCustomScroll('contact')} className={navLinkClass('contact')}>
                             Contact
@@ -242,7 +246,7 @@ const Navbar = () => {
                                 { text: 'About', action: () => handleCustomScroll('about') },
                                 // { text: 'Events', action: () => handleCustomScroll('events') },
                                 { text: 'Timeline', action: () => handleCustomScroll('timeline') },
-                                { text: 'Registration', action: handleRegistrationClick },
+                                { text: 'Registration', action: () => window.location.href = 'https://wiegnite2025.devfolio.co/' },
                                 { text: 'Contact', action: () => handleCustomScroll('contact') },
                             ].map((item, index) => (
                                 <motion.div

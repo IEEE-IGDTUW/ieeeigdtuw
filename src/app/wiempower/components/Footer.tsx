@@ -54,7 +54,7 @@ const Footer = () => {
                             <h3 className="font-bold">Links</h3>
                             <ul className="space-y-2 text-center">
                                 <li><a href="./" className="hover:text-[#7042f8] transition-colors">IEEE Home</a></li>
-                                <li><a href="https://www.example.com/registration" className="hover:text-[#7042f8] transition-colors">Registration</a></li>
+                                <li><a href="https://wiegnite2025.devfolio.co/" className="hover:text-[#7042f8] transition-colors">Registration</a></li>
                                 <li><button onClick={() => scrollToSection('about')} className="hover:text-[#7042f8] transition-colors">About</button></li>
                                 <li><button onClick={() => scrollToSection('timeline')} className="hover:text-[#7042f8] transition-colors">Timeline</button></li>
                                 <li><button onClick={() => scrollToSection('contact')} className="hover:text-[#7042f8] transition-colors">Contact</button></li>
