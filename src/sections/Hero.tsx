@@ -60,25 +60,25 @@ const Hero: React.FC = () => {
   const Socials = [
     {
       name: 'LinkedIn',
-      icon: <FaLinkedin size={iconSize} color="#ffffff" />,
+      icon: <FaLinkedin size={iconSize} color="#0077b5" />,
       link: 'https://www.linkedin.com/company/ieee-igdtuw/',
       hoverColor: '#0077b5',
     },
     {
       name: 'X',
-      icon: <SiX size={iconSize} color="#ffffff" />,
+      icon: <SiX size={iconSize} color="#1DA1F2" />,
       link: 'https://x.com/ieeeigdtuw?t=a_Ruso2b8InVZgRsWA_JIQ&s=09',
       hoverColor: '#1DA1F2',
     },
     {
       name: 'Instagram',
-      icon: <FaInstagram size={iconSize} color="#ffffff" />,
+      icon: <FaInstagram size={iconSize} color="#E1306C" />,
       link: 'https://www.instagram.com/ieeeigdtuw/?igshid=MzRlODBiNWFlZA%3D%3D',
       hoverColor: '#E1306C',
     },
     {
       name: 'Email',
-      icon: <FaEnvelope size={iconSize} color="#ffffff" />,
+      icon: <FaEnvelope size={iconSize} color="#d44638" />,
       link: '#',
       hoverColor: '#d44638',
       onClick: handleEmailClick,
@@ -124,15 +124,15 @@ const Hero: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Explore Button */}
-        <motion.button
+        {/* Explore Div */}
+        <motion.div
           className="mb-10 rounded-lg border-2 border-gradient-to-r from-purple-600 to-blue-500 bg-gradient-to-r from-purple-600 to-blue-500 px-6 py-2 text-md font-medium text-white transition-all duration-700 ease-in-out hover:scale-105"
           initial={{ scale: 0.7, opacity: 0 }}
           animate={{ scale: 1.2, opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
           Explore our student branch
-        </motion.button>
+        </motion.div>
 
         {/* Social Icons */}
         <motion.div
@@ -156,7 +156,6 @@ const Hero: React.FC = () => {
         </motion.div>
       </motion.div>
 
-     
       {/* Stats Section */}
       <div className="absolute bottom-0 left-0 right-0 z-20 bg-black/10 py-10">
         <motion.div
@@ -184,9 +183,6 @@ const Hero: React.FC = () => {
           </div>
         </motion.div>
       </div>
-
-
-
     </div>
   );
 };

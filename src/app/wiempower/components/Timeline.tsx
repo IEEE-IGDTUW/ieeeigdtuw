@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll } from "framer-motion";
-import { FaCalendarAlt, FaMapMarkerAlt, FaRegFileAlt, FaChalkboardTeacher, FaCode, FaTrophy, FaBuilding, FaBullhorn, FaLightbulb } from "react-icons/fa";
+import { FaCalendarAlt, FaMapMarkerAlt, FaRegFileAlt, FaChalkboardTeacher, FaCode, FaTrophy, FaBuilding, FaBullhorn, FaLightbulb, FaDiscord } from "react-icons/fa"; // Import Discord icon
 
 interface EventItem {
     date: string;
@@ -25,39 +25,34 @@ const EVENTS: EventItem[] = [
         buttonText: "Register Here",
     },
     {
-        date: "24th January 2025",
+        date: "25th January 2025",
         title: "Ideation Phase Begins",
-        description: "Start brainstorming your innovative solutions and submit your preliminary project slides.",
+        description: "This phase marks the official start of your brainstorming process. Team members should work together to ideate and plan their project. Reach out to mentors for guidance.",
+        hasButton: false,
     },
     {
-        date: "26th January 2025",
+        date: "1st February 2025",
         title: "Ideation Phase End",
-        description: "Last day to register your team and submit your project slides. Ensure all details are finalized.",
+        description: "Complete your ideas and submit your finalized project concept. Mentors will review your submission and provide feedback.",
+        hasButton: false,
     },
     {
-        date: "27th January 2025",
-        endDate: "29th January 2025",
+        date: "5th February 2025",
         title: "Development Phase & Mentorship",
-        description: "Seek help from mentors and continue developing your project. This phase will be conducted online.",
+        description: "The development phase begins! Teams will start implementing their ideas, with mentorship available throughout the process.",
+        hasButton: false,
     },
     {
-        date: "31th January 2025",
-        title: "Development Phase Ends",
-        description: "Final submissions of all projects. Ensure your project is complete and ready for presentation.",
-    },
-    {
-        date: "2nd February 2025",
+        date: "15th February 2025",
         title: "Shortlisted Teams Announced",
-        description: "Teams shortlisted for the finals will be announced, and they are required to present their final projects offline at IGDTUW.",
+        description: "The best teams will be shortlisted, and they will receive further instructions for the final round.",
+        hasButton: false,
     },
     {
-        date: "3rd February 2025",
+        date: "20th February 2025",
         title: "Final Presentations & Results",
-        description: "All shortlisted top teams must appear at the IGDTUW campus to present their projects to the judges and final judgement will be given on the same day.",
-        isOffline: true,
-        location: "https://maps.app.goo.gl/gr4zNjW1cQdeVUt39",
-        venue: "Auditorium, IGDTUW",
-        address: "Madrasa Road, Opposite St. James Church, Kashmere Gate, Delhi-110006",
+        description: "The final round of presentations will take place, and winners will be announced.",
+        hasButton: false,
     },
 ];
 
@@ -132,40 +127,36 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                         {event.description}
                     </p>
 
-                    {event.venue && (
-                        <div className="mt-4 border-t border-blue-500/20 pt-4">
-                            <div className="flex items-center text-blue-400">
-                                <FaBuilding className="mr-2" />
-                                <span className="font-semibold">Venue: {event.venue}</span>
-                            </div>
-                            {event.address && (
-                                <div className="mt-2 flex items-start">
-                                    <FaMapMarkerAlt className="mr-2 mt-1 text-blue-400" />
-                                    <div>
-                                        <p className="text-sm text-gray-400">{event.address}</p>
-                                        <a
-                                            href={event.location}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-flex items-center text-sm text-blue-400 hover:text-blue-300 transition-colors duration-300 mt-1"
-                                        >
-                                            View on Map →
-                                        </a>
-                                    </div>
-                                </div>
-                            )}
+                    {event.title === "Registration Opens" && (
+                        <div className="mt-4 text-red-400 text-sm font-semibold">
+                            Join Discord for all official announcements of our hackathon...
                         </div>
                     )}
 
                     {event.hasButton && (
-                        <a
-                            href="https://wiegnite2025.devfolio.co/" 
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300"
-                        >
-                            {event.buttonText}
-                        </a>
+                        <>
+                            <a
+                                href="https://wiegnite2025.devfolio.co/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300 w-full sm:w-auto"
+                            >
+                                {event.buttonText}
+                            </a>
+
+                            {event.title === "Registration Opens" && (
+                                <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
+                                    <a
+                                        href="https://discord.gg/zuBCR9uP"  // Discord link
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
+                                    >
+                                        <FaDiscord className="mr-2" /> Join Discord
+                                    </a>
+                                </div>
+                            )}
+                        </>
                     )}
 
                 </div>

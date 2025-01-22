@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState, useEffect } from "react";
-import { FaLinkedin, FaInstagram, FaBars, FaEnvelope, FaTimes } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaBars, FaEnvelope, FaTimes, FaDiscord } from "react-icons/fa";
 import { SiX } from "react-icons/si";
 import { motion, AnimatePresence } from "framer-motion";
 import { Events, scrollSpy, scroller } from "react-scroll";
@@ -27,6 +27,7 @@ const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     }
 };
 
+
 const Socials = [
     {
         name: "LinkedIn",
@@ -45,6 +46,12 @@ const Socials = [
         icon: <FaInstagram size={iconSize} color="#ffffff" />,
         link: "https://www.instagram.com/ieeeigdtuw/?igshid=MzRlODBiNWFlZA%3D%3D",
         hoverColor: "#E1306C"
+    },
+    {
+        name: "Discord",
+        icon: <FaDiscord size={iconSize} color="#ffffff" />,  // Use the FaDiscord icon here
+        link: "https://discord.gg/zuBCR9uP",
+        hoverColor: "#7289da"
     },
     {
         name: "Email",
@@ -123,13 +130,7 @@ const Navbar = () => {
         };
     }, []);
 
-    const navLinkClass = (section: string) => `
-        cursor-pointer 
-        transition-all 
-        duration-500
-        hover:text-[#a855f7]
-        ${activeSection === section ? 'text-[#a855f7]' : 'text-gray-200'}
-    `;
+    const navLinkClass = (section: string) => `cursor-pointer transition-all duration-500 hover:text-[#a855f7] ${activeSection === section ? 'text-[#a855f7]' : 'text-gray-200'}`;
 
     const handleRegistrationClick = () => {
         window.open('https://example-registration-link.com', '_blank');
@@ -138,46 +139,19 @@ const Navbar = () => {
     return (
         <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-                <div
-                    onClick={() => window.location.href = '/wiempower2/'}
-                    className="h-auto w-auto flex flex-row items-center justify-center cursor-pointer"
-                >
-                    <Image
-                        src={require('src/assets/logos/white_logo.png')}
-                        alt="logo"
-                        width={100}
-                        height={100}
-                        className="hover:animate-slowspin"
-                    />
+                <div onClick={() => window.location.href = '/wiempower2/'} className="h-auto w-auto flex flex-row items-center justify-center cursor-pointer">
+                    <Image src={require('src/assets/logos/white_logo.png')} alt="logo" width={100} height={100} className="hover:animate-slowspin" />
                 </div>
-                {/*sample */}
+
                 <div className="hidden md:flex flex-grow items-center justify-center">
                     <div className="flex items-center justify-between w-[700px] h-auto border border-[rgba(112,66,248,0.38)] bg-[#0300145e] px-[20px] py-[10px] rounded-full">
                         <Link href="https://ieee-igdtuw.github.io/ieeeigdtuw" passHref>
-                            <div className={navLinkClass('home')}>
-                                IEEE IGDTUW
-                            </div>
+                            <div className={navLinkClass('home')}>IEEE IGDTUW</div>
                         </Link>
-
-                        <div onClick={() => handleCustomScroll('about')} className={navLinkClass('about')}>
-                            About
-                        </div>
-
-                        <div onClick={() => handleCustomScroll('timeline')} className={navLinkClass('timeline')}>
-                            Timeline
-                        </div>
-
-                        <div
-                            onClick={() => window.location.href = 'https://wiegnite2025.devfolio.co/'}
-                            className={navLinkClass('registration')}
-                        >
-                            Registration
-                        </div>
-
-
-                        <div onClick={() => handleCustomScroll('contact')} className={navLinkClass('contact')}>
-                            Contact
-                        </div>
+                        <div onClick={() => handleCustomScroll('about')} className={navLinkClass('about')}>About</div>
+                        <div onClick={() => handleCustomScroll('timeline')} className={navLinkClass('timeline')}>Timeline</div>
+                        <div onClick={() => window.location.href = 'https://wiegnite2025.devfolio.co/'} className={navLinkClass('registration')}>Registration</div>
+                        <div onClick={() => handleCustomScroll('contact')} className={navLinkClass('contact')}>Contact</div>
                     </div>
                 </div>
 
@@ -196,15 +170,8 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <div
-                    onClick={toggleMenu}
-                    className={`md:hidden rounded-md p-2 ${isMenuOpen ? 'bg-[#a855f7]' : 'bg-transparent'} cursor-pointer transition-colors duration-300`}
-                >
-                    {isMenuOpen ? (
-                        <FaTimes size={24} className="text-white" />
-                    ) : (
-                        <FaBars size={24} className="text-white" />
-                    )}
+                <div onClick={toggleMenu} className={`md:hidden rounded-md p-2 ${isMenuOpen ? 'bg-[#a855f7]' : 'bg-transparent'} cursor-pointer transition-colors duration-300`}>
+                    {isMenuOpen ? <FaTimes size={24} className="text-white" /> : <FaBars size={24} className="text-white" />}
                 </div>
             </div>
 
@@ -217,9 +184,7 @@ const Navbar = () => {
                         transition={{
                             duration: 0.3,
                             ease: [0.4, 0, 0.2, 1],
-                            height: {
-                                duration: 0.4
-                            }
+                            height: { duration: 0.4 }
                         }}
                         className="md:hidden absolute left-0 right-0 top-[65px] bg-[#030014] border border-[rgba(112,66,248,0.38)] rounded-b-md shadow-lg overflow-hidden"
                     >
@@ -228,23 +193,13 @@ const Navbar = () => {
                             initial="closed"
                             animate="open"
                             variants={{
-                                open: {
-                                    transition: {
-                                        staggerChildren: 0.1
-                                    }
-                                },
-                                closed: {
-                                    transition: {
-                                        staggerChildren: 0.05,
-                                        staggerDirection: -1
-                                    }
-                                }
+                                open: { transition: { staggerChildren: 0.1 } },
+                                closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } }
                             }}
                         >
                             {[
                                 { text: 'IEEE IGDTUW', onClick: () => (window.location.href = './') },
                                 { text: 'About', action: () => handleCustomScroll('about') },
-                                // { text: 'Events', action: () => handleCustomScroll('events') },
                                 { text: 'Timeline', action: () => handleCustomScroll('timeline') },
                                 { text: 'Registration', action: () => window.location.href = 'https://wiegnite2025.devfolio.co/' },
                                 { text: 'Contact', action: () => handleCustomScroll('contact') },
@@ -256,14 +211,13 @@ const Navbar = () => {
                                         closed: { opacity: 0, y: -20 },
                                     }}
                                     transition={{ duration: 0.3, ease: 'easeOut' }}
-                                    onClick={item.onClick || item.action} // Use onClick for IEEE IGDTUW and action for others
+                                    onClick={item.onClick || item.action}
                                     className="text-gray-200 cursor-pointer hover:text-[#a855f7] transition-colors duration-300"
                                 >
                                     {item.text}
                                 </motion.div>
                             ))}
 
-                            {/* Socials inside hamburger */}
                             <div className="flex gap-4 pt-4">
                                 {Socials.map((social) => (
                                     <a
