@@ -1,28 +1,22 @@
-/*Aisha bowe
-Drone session
-Harkirat
-Nishant 
-Good Events of WIEmpower
-*/
 import akankshaRani from "@/assets/teamPic/chair_akanksha.jpg";
-import gunjanGoyal from "@/assets/teamPic/gunjangoyal.jpg"; // Add this line for Gunjan's image
-import shantiKumari from "@/assets/teamPic/viceChair_shanti.jpg"; // Add this line for Shanti's image
-import arya from "@/assets/teamPic/wieViceChair_arya.jpeg"; // Add this line for Arya's image
-import vanshikaSaini from "@/assets/teamPic/gs_vanshika.jpg"; // Add this line for Vanshika's image
-import kritiKhurana from "@/assets/teamPic/wieGS_kriti.jpeg"; // Add this line for Kriti's image
-import prishaVirmani from "@/assets/teamPic/sponsi_prisha.jpg"; // Add this line for Prisha's image
-import anamikaKumari from "@/assets/teamPic/treasurer_anamika.jpg"; // Add this line for Anamika's image
-import sakshiBhushan from "@/assets/teamPic/em_sakshi.jpg"; // Add this line for Sakshi's image
-import riyaJain from "@/assets/teamPic/em_riya.jpg"; // Add this line for Riya's image
-import adhishreeSingh from "@/assets/teamPic/pr_adhishree.jpg"; // Add this line for Adhishree's image
-import sakshiSahu from "@/assets/teamPic/pr_sakshi.jpg"; // Add this line for Sakshi Sahu's image
-import namitaBhatt from "@/assets/teamPic/namitabhatt.jpeg"; // Add this line for Namita's image
-import khushiKankheria from "@/assets/teamPic/creative_khushi.jpg"; // Add this line for Khushi's image
-import sakshiSharma from "@/assets/teamPic/hr_sakshi.jpg"; // Add this line for Sakshi Sharma's image
-import divyaVerma from "@/assets/teamPic/content_divya.jpeg"; // Add this line for Divya's image
-import mahakSahu from "@/assets/teamPic/web_mahak.jpg"; // Add this line for Mahak's image
-import manviUpadhyay from "@/assets/teamPic/web_manvi.jpeg"; // Add this line for Manvi's image
-import pooja from "@/assets/teamPic/media_pooja.jpg"; // Add this line for Pooja's image
+import gunjanGoyal from "@/assets/teamPic/gunjangoyal.jpg"; 
+import shantiKumari from "@/assets/teamPic/viceChair_shanti.jpg"; 
+import arya from "@/assets/teamPic/wieViceChair_arya.jpeg"; 
+import vanshikaSaini from "@/assets/teamPic/gs_vanshika.jpg"; 
+import kritiKhurana from "@/assets/teamPic/wieGS_kriti.jpeg"; 
+import prishaVirmani from "@/assets/teamPic/sponsi_prisha.jpg"; 
+import anamikaKumari from "@/assets/teamPic/treasurer_anamika.jpg"; 
+import sakshiBhushan from "@/assets/teamPic/em_sakshi.jpg"; 
+import riyaJain from "@/assets/teamPic/em_riya.jpg"; 
+import adhishreeSingh from "@/assets/teamPic/pr_adhishree.jpg"; 
+import sakshiSahu from "@/assets/teamPic/pr_sakshi.jpg"; 
+import namitaBhatt from "@/assets/teamPic/namitabhatt.jpeg"; 
+import khushiKankheria from "@/assets/teamPic/creative_khushi.jpg"; 
+import sakshiSharma from "@/assets/teamPic/hr_sakshi.jpg"; 
+import divyaVerma from "@/assets/teamPic/content_divya.jpeg"; 
+import mahakSahu from "@/assets/teamPic/web_mahak.jpg";
+import manviUpadhyay from "@/assets/teamPic/web_manvi.jpeg"; 
+import pooja from "@/assets/teamPic/media_pooja.jpg";
 import jhanviMadan from "@/assets/teamPic/membership_jhanvi.jpg";
 
 import random1 from "@/assets/sliderPhotos/random_1.jpg";
@@ -41,8 +35,8 @@ import random14 from "@/assets/sliderPhotos/event4_img3.jpg";
 import random15 from "@/assets/sliderPhotos/event5_img2.jpg";
 import random16 from "@/assets/sliderPhotos/event5_img3.jpg";
 
-import judge1 from "@/assets/extraPics/admin.jpg"
-import judge2 from "@/assets/extraPics/admin.jpg"
+import judge1 from "@/assets/judges/siddharth_chopra.png"
+import judge2 from "@/assets/judges/sarthak_jain.png"
 import judge3 from "@/assets/extraPics/admin.jpg"
 import judge4 from "@/assets/extraPics/admin.jpg"
 
@@ -64,6 +58,14 @@ import pastEvent7 from "@/assets/pastEventsSlider/pastEvent7.jpg"
 import pastEvent8 from "@/assets/pastEventsSlider/pastEvent8.jpg"
 import pastEvent9 from "@/assets/pastEventsSlider/pastEvent9.jpg"
 import pastEvent10 from "@/assets/pastEventsSlider/pastEvent10.jpg"
+
+import sponser1 from "@/assets/sponsers/devfolio.png"
+import sponser2 from "@/assets/sponsers/eth.jpg"
+import sponser3 from "@/assets/sponsers/polygon.png"
+import sponser4 from "@/assets/sponsers/aptos.jpg"
+import sponser5 from "@/assets/sponsers/interview_buddy.png"
+import sponser6 from "@/assets/sponsers/wayspire.jpg"
+import sponser7 from "@/assets/sponsers/hoverrobotix.png"
 
 
 export const TEAM = [
@@ -381,33 +383,31 @@ export const AIM = [
 
 export const JUDGES = [
     {
-        name: 'Dr. John Doe',
-        profession: 'AI Researcher',
-        linkedin: 'https://linkedin.com/in/johndoe',
-        description: 'An expert in machine learning and AI-driven technologies, with several years of research and development experience.',
+        name: 'Siddharth Chopra',
+        linkedin: 'https://www.linkedin.com/in/siddharthchopra1/',
+        description: 'Siddharth Chopra is a passionate Software Engineer at Optum and a dynamic Gen AI speaker. He is also a 10x Hackathon Winner and Tech Mentor, specializing in empowering the next generation of innovators.',
         image:judge1,
     },
     {
-        name: 'Jane Smith',
-        profession: 'Software Engineer',
+        name: 'Sarthak Jain',
         linkedin: 'https://linkedin.com/in/janesmith',
-        description: 'A passionate software engineer specializing in full-stack development and cloud computing.',
+        description: 'Sarthak Jain is the Head of Communities at ID8NXT. He previously held the same role at Reskilll and has also contributed as a SysAdmin at Red Hat, leveraging his experience in community engagement and system administration.',
         image:judge2,
     },
-    {
-        name: 'Michael Lee',
-        profession: 'Data Scientist',
-        linkedin: 'https://linkedin.com/in/michaellee',
-        description: 'A data scientist with a knack for predictive modeling and data visualization.',
-        image: judge3,
-    },
-    {
-        name: 'Sarah Johnson',
-        profession: 'Blockchain Expert',
-        linkedin: 'https://linkedin.com/in/sarahjohnson',
-        description: 'A blockchain enthusiast focused on decentralized applications and smart contracts.',
-        image: judge4,
-    },
+    // {
+    //     name: 'Michael Lee',
+    //     profession: 'Data Scientist',
+    //     linkedin: 'https://linkedin.com/in/michaellee',
+    //     description: 'A data scientist with a knack for predictive modeling and data visualization.',
+    //     image: judge3,
+    // },
+    // {
+    //     name: 'Sarah Johnson',
+    //     profession: 'Blockchain Expert',
+    //     linkedin: 'https://linkedin.com/in/sarahjohnson',
+    //     description: 'A blockchain enthusiast focused on decentralized applications and smart contracts.',
+    //     image: judge4,
+    // },
 ];
 
 export const SPEAKERS = [
@@ -450,4 +450,36 @@ export const SPEAKERS = [
 ];
 
 
-export const PASTEVENTS = [pastEvent1,pastEvent2,pastEvent3,pastEvent4,pastEvent5,pastEvent6,pastEvent7,pastEvent8,pastEvent9,pastEvent10]
+export const PASTEVENTS = [pastEvent1, pastEvent2, pastEvent3, pastEvent4, pastEvent5, pastEvent6, pastEvent7, pastEvent8, pastEvent9, pastEvent10]
+
+export const SPONSERS = [
+  {
+    sponserName:"Devfolio",
+    sponserImage:sponser1
+  },
+  {
+    sponserName:"ETHIndia",
+    sponserImage:sponser2
+  },
+  {
+    sponserName:"Polygon",
+    sponserImage:sponser3
+  },
+  {
+    sponserName:"Aptos",
+    sponserImage:sponser4
+  },
+  {
+    sponserName: "Interview Buddy",
+    sponserImage:sponser5
+  },
+  {
+    sponserName: "wayspire",
+    sponserImage:sponser6
+  },
+  {
+    sponserName: "Hovverrobotix",
+    sponserImage:sponser7
+  }
+
+]
