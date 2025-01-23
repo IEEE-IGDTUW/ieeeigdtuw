@@ -14,7 +14,7 @@ const formatName = (name: string) => {
 const Judges = () => {
     return (
         <div id="judges" className="max-w-5xl mx-auto p-4 sm:p-8">
-            <h2 className="text-3xl font-bold text-center mb-12">Our Judges</h2>
+            <h2 className="text-5xl font-bold text-center mb-6 bg-gradient-to-r from-purple-800 via-purple-300 to-purple-500 bg-clip-text text-transparent py-2">Our Judges</h2>
 
             {/* Grid layout */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
