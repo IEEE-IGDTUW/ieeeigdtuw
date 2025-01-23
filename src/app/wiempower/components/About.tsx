@@ -45,7 +45,7 @@ const About = () => {
               animate={{ opacity: inView ? 1 : 0 }}
               transition={{ delay: 0.5, duration: 1 }}
             >
-              WIEmpower 5.0 is the flagship event organized by IEEE IGDTUW. This event serves as a
+              WIEmpower 6.0 is the flagship event organized by IEEE IGDTUW. This event serves as a
               premier platform for innovation, leadership, and growth. With a series of workshops,
               competitions, and talks, WIEmpower brings together individuals from diverse fields,
               encouraging collaboration, skill enhancement, and the exchange of groundbreaking
