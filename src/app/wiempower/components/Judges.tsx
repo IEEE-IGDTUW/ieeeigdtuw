@@ -10,7 +10,7 @@ const formatName = (name: string) => {
         .map((part: string) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
         .join(' ');
 };
-
+// comment
 const Judges = () => {
     return (
         <div id="judges" className="max-w-5xl mx-auto p-4 sm:p-8">
