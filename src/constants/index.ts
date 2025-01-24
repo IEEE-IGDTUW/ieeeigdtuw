@@ -40,10 +40,11 @@ import judge2 from "@/assets/judges/sarthak_jain.png"
 import judge3 from "@/assets/extraPics/admin.jpg"
 import judge4 from "@/assets/extraPics/admin.jpg"
 
-import speaker1 from "@/assets/extraPics/admin.jpg"
-import speaker2 from "@/assets/extraPics/admin.jpg"
-import speaker3 from "@/assets/extraPics/admin.jpg"
-import speaker4 from "@/assets/extraPics/admin.jpg"
+import speaker1 from "@/assets/speakers/tanu_jain.png"
+import speaker2 from "@/assets/speakers/arsh_goyal.jpg"
+import speaker3 from "@/assets/speakers/manpreet_kaur.jpg"
+import speaker4 from "@/assets/speakers/jatin_jain.png"
+import speaker5 from "@/assets/speakers/ramneek_kalra.jpg"
 
 import ieeeLogo from "@/assets/logos/white_logo.png"
 import wieLogo from "@/assets/logos/wieLogo.png"
@@ -66,6 +67,7 @@ import sponser4 from "@/assets/sponsers/aptos.jpg"
 import sponser5 from "@/assets/sponsers/interview_buddy.png"
 import sponser6 from "@/assets/sponsers/wayspire.jpg"
 import sponser7 from "@/assets/sponsers/hoverrobotix.png"
+import { Instagram } from "lucide-react";
 
 
 export const TEAM = [
@@ -394,57 +396,62 @@ export const JUDGES = [
         description: 'Sarthak Jain is the Head of Communities at ID8NXT. He previously held the same role at Reskilll and has also contributed as a SysAdmin at Red Hat, leveraging his experience in community engagement and system administration.',
         image:judge2,
     },
-    // {
-    //     name: 'Michael Lee',
-    //     profession: 'Data Scientist',
-    //     linkedin: 'https://linkedin.com/in/michaellee',
-    //     description: 'A data scientist with a knack for predictive modeling and data visualization.',
-    //     image: judge3,
-    // },
-    // {
-    //     name: 'Sarah Johnson',
-    //     profession: 'Blockchain Expert',
-    //     linkedin: 'https://linkedin.com/in/sarahjohnson',
-    //     description: 'A blockchain enthusiast focused on decentralized applications and smart contracts.',
-    //     image: judge4,
-    // },
+
 ];
 
 export const SPEAKERS = [
+  // {
+  //   name: 'Dr. Tanu Jain',
+  //   designation: 'Founder & Educator at Tathastu ICS | IAS Officer (2015 Batch) | UPSC Mentor',
+  //   description: 'Dr. Tanu Jain, a 2015 IAS officer, transitioned from dentistry to the civil services, securing an All India Rank of 648 in her third attempt. After serving for over seven years, she founded Tathastu ICS, a coaching institute for UPSC aspirants. Dr. Jain inspires over 840,000 followers on Instagram, providing guidance through motivational content and mock interviews.',
+  //   image: speaker1,
+  //   socials: {
+  //     linkedin: 'hhttps://www.linkedin.com/in/dr-tanu-jain-4aa28a131/',
+  //     Instagram: 'https://www.instagram.com/dr.tanujain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+  //     twitter:'https://x.com/DrTanuJain1',
+  //   },
+  // },
+  // {
+  //   name: 'Arsh Goyal',
+  //   designation: 'Senior Software Engineer | Samsung | LinkedIn Top Voice ‘24| Ex- ISRO | 250k+ YouTube & Instagram | 3x TEDx',
+  //   description: 'Arsh Goyal is a Senior Software Engineer at Samsung and a LinkedIn Top Voice 2024. With a background at ISRO and as an educator at Unacademy, he is also a prominent figure in the tech community, having made contributions to platforms like CodeChef. With a strong online presence of over 250k followers on YouTube and Instagram, Arsh is a 3x TEDx speaker, focusing on Gen AI and technology.',
+  //   image: speaker2,
+  //   socials: {
+  //     linkedin: 'https://www.linkedin.com/in/arshgoyal/',
+  //     Instagram: 'https://www.instagram.com/arshgoyalyt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+  //     twitter:'https://x.com/arsh_goyal',
+  //   },
+  // },
   {
-    name: 'Dr. John Doe',
-    designation: 'CEO & Founder of InnovateTech',
-    description: 'Dr. John Doe is a leading innovator in the tech industry with over 20 years of experience. He has helped shape the future of AI and machine learning.',
-    image: speaker1,
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/johndoe',
-    },
-  },
-  {
-    name: 'Jane Smith',
-    designation: 'Lead Developer at CodeCraft',
-    description: 'Jane Smith is a passionate software engineer and open-source advocate. With a focus on backend development, she is dedicated to building scalable and efficient systems.',
-    image: speaker2,
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/janesmith',
-    },
-  },
-  {
-    name: 'Michael Johnson',
-    designation: 'Product Manager at CloudShift',
-    description: 'Michael Johnson leads product development at CloudShift, with a special focus on cloud-based solutions. He brings a deep understanding of user experience and product strategy.',
+    name: 'Dr. Manpreet Kaur',
+    designation: 'Head of Department, CST | Member, WIE Delhi Section',
+    description: 'Dr. Manpreet Kaur is the Head of the Department of Computer Science & Technology at Manav Rachna University, with 15 years of academic experience. She is a strong advocate for women in STEM, having served as the past Chair of IEEE WIE Delhi Section (2019-2020). She actively promotes project-based learning and is a member of IEEE WIE and IEEE SIGHT Delhi Sections.',
     image: speaker3,
     socials: {
-      linkedin: 'https://www.linkedin.com/in/michaeljohnson',
+      linkedin: 'https://www.linkedin.com/in/dr-manpreet-kaur-smieee-94506a3a/',
+      Instagram: '',
+      twitter:'',
     },
   },
   {
-    name: 'Emily Davis',
-    designation: 'Founder of EcoInnovators',
-    description: 'Emily Davis is an entrepreneur and environmental advocate, working on sustainable tech solutions to help businesses reduce their carbon footprint.',
+    name: 'Mr. Jatin Jain',
+    designation: 'Corporate Trainer | Cyber Instructor',
+    description: 'Mr. Jatin Jain is a dedicated professional with expertise in corporate training, cybersecurity, and digital marketing. As Senior Manager at CyberYaan Training & Consultancy, he leads sales, tech, and marketing teams while delivering impactful trainings and organizing high-profile seminars and webinars.',
     image: speaker4,
     socials: {
-      linkedin: 'https://www.linkedin.com/in/emilydavis',
+      linkedin: 'https://www.linkedin.com/in/jatinjain2911/',
+      Instagram: '',
+      twitter:'',
+    },
+  },
+  {
+    name: 'Mr. Ramneek Kalra',
+    designation: 'IEEE Impact Creator | Clous Support Engineer (AWS)',
+    description: "Mr. Ramneek Kalra is an IEEE Impact Creator with nearly 9 years of experience, dedicated to inspiring and motivating IEEE members and non-members alike. Through various media channels, he shares his expertise and advocates for IEEE's mission, while focusing on spreading awareness about digital branding and guidelines.",
+    image: speaker5,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/ramneekkalra/',
+      
     },
   },
 ];
