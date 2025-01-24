@@ -40,13 +40,19 @@ const EVENTS: EventItem[] = [
         date: "27th January 2025 12:00 PM",
         title: "Development Phase & Mentorship [Online]",
         description: "The development phase begins! Teams will start implementing their ideas, with mentorship available throughout the process.",
-        hasButton: false,
+        hasButton: true,
     },
     {
         date: "31st January 2025",
         title: "Development Phase Ends [Online]",
         description: "The development phase ends! Top teams will be announced soon on discord",
         hasButton: false,
+    },
+    {
+        date: "1st February 2025",
+        title: "Presentations And Screening [Online]",
+        description: "All the teams selected in the development phase must present their PPT along with their prototype via an online presentation to the mentors.",
+        hasButton: true,
     },
     {
         date: "2nd February 2025",
@@ -175,19 +181,56 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                             Join Discord for all official announcements of our hackathon...
                         </div>
                     )}
+                    {event.title === "Presentations And Screening [Online]" && (
+                        <div className="mt-4 text-red-400 text-sm font-semibold">
+                            Kindly join Discord to access the meeting links for the final presentation and mentoring sessions.
+                        </div>
+                    )}
+
+                    {event.title === "Development Phase & Mentorship [Online]" && (
+                        <div className="mt-4 text-red-400 text-sm font-semibold">
+                            Kindly Join Our Discord Server For Mentoring Sessions.
+                        </div>
+                    )}
 
                     {event.hasButton && (
                         <>
-                            <a
-                                href="https://wiegnite2025.devfolio.co/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300 w-full sm:w-auto"
-                            >
-                                {event.buttonText}
-                            </a>
-
                             {event.title === "Registration Opens [Online]" && (
+                                <a
+                                    href="https://wiegnite2025.devfolio.co/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors duration-300 w-full sm:w-auto"
+                                >
+                                    {event.buttonText}
+                                </a>
+                            )
+                            }
+                            {event.title === "Registration Opens [Online]" && (
+                                <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
+                                    <a
+                                        href="https://discord.gg/zuBCR9uP"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
+                                    >
+                                        <FaDiscord className="mr-2" /> Join Discord
+                                    </a>
+                                </div>
+                            )}
+                            {event.title === "Presentations And Screening [Online]" && (
+                                <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
+                                    <a
+                                        href="https://discord.gg/zuBCR9uP"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
+                                    >
+                                        <FaDiscord className="mr-2" /> Join Discord
+                                    </a>
+                                </div>
+                            )}
+                            {event.title === "Development Phase & Mentorship [Online]" && (
                                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
                                     <a
                                         href="https://discord.gg/zuBCR9uP"
