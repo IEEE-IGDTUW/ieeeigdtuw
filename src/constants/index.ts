@@ -490,3 +490,35 @@ export const SPONSERS = [
   }
 
 ]
+
+
+export const WIEEVENTS = [
+  {
+    date:'',
+    name: '',
+    
+  
+  },
+  {
+  
+  
+  },
+
+  {
+  
+  
+  
+  },
+  {
+  
+  
+  
+  },
+  {
+  
+  
+  
+  },
+
+
+]

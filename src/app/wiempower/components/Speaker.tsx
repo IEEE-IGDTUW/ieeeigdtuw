@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { SPEAKERS } from 'src/constants/index';
 
 const SpeakerSection = () => {
@@ -17,9 +18,9 @@ const SpeakerSection = () => {
                     {SPEAKERS.map((speaker, index) => (
                         <div
                             key={index}
-                            className="flex p-6 rounded-lg bg-transparent border border-gray-500 cursor-auto relative"
+                            className="flex flex-col md:flex-row p-6 rounded-lg bg-transparent border border-gray-500 cursor-auto relative"
                         >
-                            <div className="w-1/3 relative">
+                            <div className="w-full md:w-2/5 relative mb-4 md:mb-0">
                                 <div className="w-full pt-[100%] relative">
                                     <Image
                                         src={speaker.image}
@@ -30,7 +31,7 @@ const SpeakerSection = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="ml-6 w-2/3">
+                            <div className="w-full md:w-3/5 md:ml-6">
                                 <h3 className="text-2xl font-semibold mb-2 text-white flex items-center">
                                     {speaker.name}
                                     <div className="ml-2 flex space-x-2">
@@ -59,9 +60,9 @@ const SpeakerSection = () => {
                                                 href={speaker.socials.twitter}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                                                className="text-white hover:text-gray-300 transition-colors duration-300"
                                             >
-                                                <FaTwitter className="text-2xl" />
+                                                <FaXTwitter className="text-2xl" />
                                             </a>
                                         )}
                                     </div>
@@ -73,7 +74,6 @@ const SpeakerSection = () => {
                                     {speaker.description}
                                 </p>
                             </div>
-                            <div className="absolute inset-0 rounded-lg pointer-events-none" />
                         </div>
                     ))}
                 </div>
