@@ -69,6 +69,12 @@ import sponser6 from "@/assets/sponsers/wayspire.jpg"
 import sponser7 from "@/assets/sponsers/hoverrobotix.png"
 import { Instagram } from "lucide-react";
 
+import banner1 from "@/assets/wieEvents/tanu_jain.jpeg"
+import banner2 from "@/assets/wieEvents/ieee_session.png"
+import banner3 from "@/assets/wieEvents/cybersecurity.png"
+import banner4 from "@/assets/wieEvents/3d_printing.png"
+import banner5 from "@/assets/wieEvents/ngo_visit.png"
+
 
 export const TEAM = [
   {
@@ -493,32 +499,56 @@ export const SPONSERS = [
 
 
 export const WIEEVENTS = [
+  // {
+  //   eventBanner:banner1,
+  //   date: '28th January 2025',
+  //   title: 'Unlocking Opportunities and Funding: Exploring IEEE Support for Academic Projects',
+  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
+  //   time: '12:00 PM - 2:00 PM',
+  //   venue: 'Auditorium, IGDTUW',
+  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
+  // },
   {
-    date:'',
-    name: '',
-    
-  
+    eventBanner:banner2,
+    date: '28th January 2025',
+    title: 'Unlocking Opportunities and Funding: Exploring IEEE Support for Academic Projects',
+    description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
+    time: '12:00 PM - 2:00 PM',
+    venue: 'Auditorium, IGDTUW',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
   },
   {
-  
-  
-  },
-
-  {
-  
-  
-  
+    eventBanner:banner3,
+    date: '29th January 2025',
+    title: 'Decoding Cybersecurity: Safeguarding the Digital World',
+    description: 'Join Jatin Jain, a renowned cybersecurity professional, for an insightful session on protecting your online presence. Learn effective strategies to prevent cyber threats, secure your data, and navigate the digital world with confidence. This session is a must-attend for anyone looking to enhance their cybersecurity knowledge and stay ahead in the ever-evolving digital landscape.',
+    time: '11-12:30 PM',
+    venue: 'Seminar Hall ,IGDTUW',
   },
   {
-  
-  
-  
+    eventBanner:banner4,
+    date: '30th - 31st January 2025',
+    title: 'Build, Design, Create: Let’s Make a 3D Printer!',
+    description: 'Join the hands-on workshop organized by IEEE IGDTUW Student Branch and the Department of Electronics & Communication Engineering, IGDTUW, to build a fully functional 3D printer. Learn from experts, gain practical experience, and explore real-world applications of 3D printing technology.',
+    time: '10:00 AM - 5:00 PM',
+    venue: 'Mechanical Dept ,IGDTUW',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScktmgbfSxhhFaFp5PGZZFYW9TrTsxu4rE6AuZdtSicy3AVuA/viewform?usp=send_form', 
   },
   {
-  
-  
-  
+    eventBanner:banner5,
+    date: '1st February 2025',
+    title: 'Spreading Smiles: NGO Visit and Donation Drive',
+    description: "Join us for a meaningful NGO visit organized by IEEE WIE Delhi Section and Enactus IGDTUW. Empower young minds by donating books, clothing, and toys. Every contribution counts, and your participation can bring smiles to many. Let's make a difference together!",
+    time: '11:00 AM - 1:00 PM',
+    venue: 'NGO',
   },
-
-
-]
+  // {
+  //   eventBanner:banner5,
+  //   date: '28th January 2025',
+  //   title: 'Arsh Goyal',
+  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
+  //   time: '12:00 PM - 2:00 PM',
+  //   venue: 'Auditorium, IGDTUW',
+  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
+  // },
+];
