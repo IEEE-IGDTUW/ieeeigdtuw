@@ -18,7 +18,7 @@ interface EventItem {
 const EVENTS: EventItem[] = [
     {
         date: "17th January 2025",
-        endDate: "24th January 2025",
+        endDate: "26th January 2025 12:00 PM [extended]",
         title: "Registration Opens [Online]",
         description: "Begin your journey by registering your team through our online portal. Ensure all team details and areas of interest are properly documented.",
         hasButton: true,
@@ -31,7 +31,7 @@ const EVENTS: EventItem[] = [
         hasButton: false,
     },
     {
-        date: "26st February 2025",
+        date: "26st January 2025 12:00 PM",
         title: "Ideation Phase End [Online]",
         description: "Complete your ideas and submit your finalized project concept. Mentors will review your submission and provide feedback.",
         hasButton: false,
