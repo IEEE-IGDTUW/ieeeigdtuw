@@ -209,7 +209,7 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                             {event.title === "Registration Opens [Online]" && (
                                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
                                     <a
-                                        href="https://discord.gg/zuBCR9uP"
+                                        href="https://discord.gg/VDhHjBsdCc"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
@@ -221,7 +221,7 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                             {event.title === "Presentations And Screening [Online]" && (
                                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
                                     <a
-                                        href="https://discord.gg/zuBCR9uP"
+                                        href="https://discord.gg/VDhHjBsdCc"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
@@ -233,7 +233,7 @@ const TimelineItem = ({ event, index, progress, isLargeScreen }: {
                             {event.title === "Development Phase & Mentorship [Online]" && (
                                 <div className="mt-4 flex flex-col sm:flex-row items-center justify-start sm:space-x-4">
                                     <a
-                                        href="https://discord.gg/zuBCR9uP"
+                                        href="https://discord.gg/VDhHjBsdCc"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition-colors duration-300 w-full sm:w-auto"
