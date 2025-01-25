@@ -35,7 +35,7 @@ import random14 from "@/assets/sliderPhotos/event4_img3.jpg";
 import random15 from "@/assets/sliderPhotos/event5_img2.jpg";
 import random16 from "@/assets/sliderPhotos/event5_img3.jpg";
 
-import judge1 from "@/assets/judges/siddharth_chopra.png"
+import judge1 from "@/assets/judges/akshay_saini.png"
 import judge2 from "@/assets/judges/sarthak_jain.png"
 import judge3 from "@/assets/extraPics/admin.jpg"
 import judge4 from "@/assets/extraPics/admin.jpg"
@@ -391,9 +391,9 @@ export const AIM = [
 
 export const JUDGES = [
     {
-        name: 'Siddharth Chopra',
-        linkedin: 'https://www.linkedin.com/in/siddharthchopra1/',
-        description: 'Siddharth Chopra is a passionate Software Engineer at Optum and a dynamic Gen AI speaker. He is also a 10x Hackathon Winner and Tech Mentor, specializing in empowering the next generation of innovators.',
+        name: 'Akshay Saini',
+        linkedin: 'https://www.linkedin.com/in/akshaymarch7/',
+        description: 'Akshay Saini, founder of NamasteDev and YouTuber with 1.7M+ subscribers, shares coding knowledge and inspires developers. Former software engineer at Uber, Paytm, and Lendingkart, he has built impactful tech products.',
         image:judge1,
     },
     {
@@ -406,17 +406,17 @@ export const JUDGES = [
 ];
 
 export const SPEAKERS = [
-  // {
-  //   name: 'Dr. Tanu Jain',
-  //   designation: 'Founder & Educator at Tathastu ICS | IAS Officer (2015 Batch) | UPSC Mentor',
-  //   description: 'Dr. Tanu Jain, a 2015 IAS officer, transitioned from dentistry to the civil services, securing an All India Rank of 648 in her third attempt. After serving for over seven years, she founded Tathastu ICS, a coaching institute for UPSC aspirants. Dr. Jain inspires over 840,000 followers on Instagram, providing guidance through motivational content and mock interviews.',
-  //   image: speaker1,
-  //   socials: {
-  //     linkedin: 'hhttps://www.linkedin.com/in/dr-tanu-jain-4aa28a131/',
-  //     Instagram: 'https://www.instagram.com/dr.tanujain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-  //     twitter:'https://x.com/DrTanuJain1',
-  //   },
-  // },
+  {
+    name: 'Dr. Tanu Jain',
+    designation: 'Founder & Educator at Tathastu ICS | IAS Officer (2015 Batch) | UPSC Mentor',
+    description: 'Dr. Tanu Jain, a 2015 IAS officer, transitioned from dentistry to the civil services, securing an All India Rank of 648 in her third attempt. After serving for over seven years, she founded Tathastu ICS, a coaching institute for UPSC aspirants. Dr. Jain inspires over 840,000 followers on Instagram, providing guidance through motivational content and mock interviews.',
+    image: speaker1,
+    socials: {
+      linkedin: 'hhttps://www.linkedin.com/in/dr-tanu-jain-4aa28a131/',
+      Instagram: 'https://www.instagram.com/dr.tanujain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+      twitter:'https://x.com/DrTanuJain1',
+    },
+  },
   // {
   //   name: 'Arsh Goyal',
   //   designation: 'Senior Software Engineer | Samsung | LinkedIn Top Voice ‘24| Ex- ISRO | 250k+ YouTube & Instagram | 3x TEDx',
@@ -499,15 +499,15 @@ export const SPONSERS = [
 
 
 export const WIEEVENTS = [
-  // {
-  //   eventBanner:banner1,
-  //   date: '28th January 2025',
-  //   title: 'Unlocking Opportunities and Funding: Exploring IEEE Support for Academic Projects',
-  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
-  //   time: '12:00 PM - 2:00 PM',
-  //   venue: 'Auditorium, IGDTUW',
-  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
-  // },
+  {
+    eventBanner:banner1,
+    date: '27th January 2025',
+    title: 'Navigating The Journey To Competitive Success: A Talk By Dr. Tanu Jain',
+    description: 'Join us for an inspiring session, "Navigating the Journey to Competitive Success," featuring Dr. Tanu Jain, a former civil servant and founder of Tathastu ICS. Dr. Jain will share her insights on overcoming societal and personal challenges, building resilience, and cultivating true leadership qualities. This transformative talk is designed to empower individuals to make a meaningful impact in their communities and beyond.',
+    time: '11:30 AM - 1:00 PM',
+    venue: 'Auditorium, IGDTUW',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdf2edHCv_zwkXxT-JNR5HtUs7yS-ziKaJ8UKDWpNzJcM-WFw/viewform', 
+  },
   {
     eventBanner:banner2,
     date: '28th January 2025',
