@@ -49,7 +49,7 @@ const Socials = [
     },
     {
         name: "Discord",
-        icon: <FaDiscord size={iconSize} color="#ffffff" />, 
+        icon: <FaDiscord size={iconSize} color="#ffffff" />,
         link: "https://discord.gg/VDhHjBsdCc",
         hoverColor: "#7289da"
     },

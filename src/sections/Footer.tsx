@@ -109,8 +109,26 @@ const Footer = () => {
                             </div>
                             <div className="mt-4">
                                 <p>For more information, contact:</p>
-                                <p>• Sakshi Sahu: +91 7217797045</p>
-                                <p className="mb-4">• Adhishree: +91 9149368190</p>
+                                <p>
+                                    • <a
+                                        href="https://www.linkedin.com/in/sakshi-sahu-2b926224a/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="underline"
+                                    >
+                                        LinkedIn Profile
+                                    </a>
+                                </p>
+                                <p className="mb-4">
+                                    • <a
+                                        href="https://www.instagram.com/ieeeigdtuw/?hl=en"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="underline"
+                                    >
+                                        Instagram ID
+                                    </a>
+                                </p>
                                 <p>
                                     Email:{" "}
                                     <a href="mailto:igdtuieee@gmail.com" className="underline">
@@ -118,6 +136,7 @@ const Footer = () => {
                                     </a>
                                 </p>
                             </div>
+
                         </div>
                     </div>
 
