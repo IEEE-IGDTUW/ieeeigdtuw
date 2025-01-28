@@ -37,14 +37,14 @@ import random16 from "@/assets/sliderPhotos/event5_img3.jpg";
 
 import judge1 from "@/assets/judges/akshay_saini.png"
 import judge2 from "@/assets/judges/sarthak_jain.png"
-import judge3 from "@/assets/extraPics/admin.jpg"
-import judge4 from "@/assets/extraPics/admin.jpg"
+import judge3 from "@/assets/judges/mudra_surana.png"
 
 import speaker1 from "@/assets/speakers/tanu_jain.png"
 import speaker2 from "@/assets/speakers/arsh_goyal.jpg"
 import speaker3 from "@/assets/speakers/manpreet_kaur.jpg"
 import speaker4 from "@/assets/speakers/jatin_jain.png"
 import speaker5 from "@/assets/speakers/ramneek_kalra.jpg"
+import speaker6 from "@/assets/speakers/gajendra_purohit.png"
 
 import ieeeLogo from "@/assets/logos/white_logo.png"
 import wieLogo from "@/assets/logos/wieLogo.png"
@@ -391,6 +391,12 @@ export const AIM = [
 
 export const JUDGES = [
     {
+        name: 'Mudra Surana',
+        linkedin: 'https://www.linkedin.com/in/mudra-surana-0a7083148/',
+        description: 'Mudra Surana is a Product Manager at Nykaa with expertise in Recommendations and Personalization. Formerly a Senior Product Analyst at Sprinklr, she shares insights on Product Management and helps early-career professionals break into the field.',
+        image:judge3,
+    },
+    {
         name: 'Akshay Saini',
         linkedin: 'https://www.linkedin.com/in/akshaymarch7/',
         description: 'Akshay Saini, founder of NamasteDev and YouTuber with 1.7M+ subscribers, shares coding knowledge and inspires developers. Former software engineer at Uber, Paytm, and Lendingkart, he has built impactful tech products.',
@@ -428,6 +434,18 @@ export const SPEAKERS = [
   //     twitter:'https://x.com/arsh_goyal',
   //   },
   // },
+
+  // {
+  //   name: 'Dr.Gajendra Purohit',
+  //   designation: 'Founder, MathsCare | Educator for IIT-JAM, CSIR NET GATE Motivational & TEDx Speaker | YouTuber (1.6M+ Subscribers) Author of 6 Best-Selling Books | Mathematics Expert with 20+ Years of Teaching Experience',
+  //   description: 'Dr. Gajendra Purohit (GP Sir), Founder of MathsCare, is a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With 1.6M+ YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of 6 books, he inspires students with his innovative teaching and motivational content.',
+  //   image: speaker6,
+  //   socials: {
+  //     linkedin: 'https://www.linkedin.com/in/dr-gajendra-purohit/',
+  //     Instagram: 'https://www.instagram.com/dr.gajendrapurohit/',
+  //     twitter:'https://x.com/gajendr94838832',
+  //   },
+  // },
   {
     name: 'Dr. Manpreet Kaur',
     designation: 'Head of Department, CST | Member, WIE Delhi Section',
@@ -452,7 +470,7 @@ export const SPEAKERS = [
   },
   {
     name: 'Mr. Ramneek Kalra',
-    designation: 'IEEE Impact Creator | Clous Support Engineer (AWS)',
+    designation: 'IEEE Impact Creator | Cloud Support Engineer (AWS)',
     description: "Mr. Ramneek Kalra is an IEEE Impact Creator with nearly 9 years of experience, dedicated to inspiring and motivating IEEE members and non-members alike. Through various media channels, he shares his expertise and advocates for IEEE's mission, while focusing on spreading awareness about digital branding and guidelines.",
     image: speaker5,
     socials: {
@@ -508,6 +526,24 @@ export const WIEEVENTS = [
     venue: 'Auditorium, IGDTUW',
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdf2edHCv_zwkXxT-JNR5HtUs7yS-ziKaJ8UKDWpNzJcM-WFw/viewform', 
   },
+  // {
+  //   eventBanner:banner5,
+  //   date: '28th January 2025',
+  //   title: 'Arsh Goyal',
+  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
+  //   time: '12:00 PM - 2:00 PM',
+  //   venue: 'Auditorium, IGDTUW',
+  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform',
+  // },
+  // {
+  //   eventBanner:banner5,
+  //   date: '31st January 2025',
+  //   title: 'Dr.Gajendra Purohit',
+  //   description: 'Dr. Gajendra Purohit (GP Sir), Founder of MathsCare, is a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With 1.6M+ YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of 6 books, he inspires students with his innovative teaching and motivational content.',
+  //   time:'12:00 PM - 2:00 PM',
+  //   venue:'Auditorium, IGDTUW',
+  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
+  // },
   {
     eventBanner:banner2,
     date: '28th January 2025',
@@ -522,33 +558,17 @@ export const WIEEVENTS = [
     date: '29th January 2025',
     title: 'Decoding Cybersecurity: Safeguarding the Digital World',
     description: 'Join Jatin Jain, a renowned cybersecurity professional, for an insightful session on protecting your online presence. Learn effective strategies to prevent cyber threats, secure your data, and navigate the digital world with confidence. This session is a must-attend for anyone looking to enhance their cybersecurity knowledge and stay ahead in the ever-evolving digital landscape.',
-    time: '11-12:30 PM',
+    time: '3:00 PM - 4:30 PM',
     venue: 'Seminar Hall ,IGDTUW',
   },
   {
     eventBanner:banner4,
     date: '30th - 31st January 2025',
-    title: 'Build, Design, Create: Let’s Make a 3D Printer!',
+    title: "Build, Design, Create: Let's Make a 3D Printer!",
     description: 'Join the hands-on workshop organized by IEEE IGDTUW Student Branch and the Department of Electronics & Communication Engineering, IGDTUW, to build a fully functional 3D printer. Learn from experts, gain practical experience, and explore real-world applications of 3D printing technology.',
     time: '10:00 AM - 5:00 PM',
     venue: 'Mechanical Dept ,IGDTUW',
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScktmgbfSxhhFaFp5PGZZFYW9TrTsxu4rE6AuZdtSicy3AVuA/viewform?usp=send_form', 
   },
-  {
-    eventBanner:banner5,
-    date: '1st February 2025',
-    title: 'Spreading Smiles: NGO Visit and Donation Drive',
-    description: "Join us for a meaningful NGO visit organized by IEEE WIE Delhi Section and Enactus IGDTUW. Empower young minds by donating books, clothing, and toys. Every contribution counts, and your participation can bring smiles to many. Let's make a difference together!",
-    time: '11:00 AM - 1:00 PM',
-    venue: 'NGO',
-  },
-  // {
-  //   eventBanner:banner5,
-  //   date: '28th January 2025',
-  //   title: 'Arsh Goyal',
-  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
-  //   time: '12:00 PM - 2:00 PM',
-  //   venue: 'Auditorium, IGDTUW',
-  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
-  // },
+  
 ];

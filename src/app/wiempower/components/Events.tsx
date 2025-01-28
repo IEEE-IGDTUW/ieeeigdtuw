@@ -101,7 +101,7 @@ const Events: React.FC = () => {
                     bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent
                     drop-shadow-[0_0_10px_rgba(168,85,247,0.3)]"
                 >
-                    Upcoming IEEE Events
+                    <h1 className='py-1'>Upcoming IEEE Events</h1>
                 </motion.h1>
 
                 <motion.div

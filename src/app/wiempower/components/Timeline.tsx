@@ -43,7 +43,7 @@ const EVENTS: EventItem[] = [
         hasButton: true,
     },
     {
-        date: "31st January 2025",
+        date: "31st January 2025 11:59 PM",
         title: "Development Phase Ends [Online]",
         description: "The development phase ends! Top teams will be announced soon on discord",
         hasButton: false,

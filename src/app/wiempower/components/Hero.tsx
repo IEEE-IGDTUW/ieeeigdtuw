@@ -175,11 +175,11 @@ export default function Hero() {
                 className="space-y-6 md:space-y-8"
               >
                 <p className="text-lg sm:text-xl md:text-2xl font-bold tracking-[0.2em] flex flex-wrap justify-center items-center gap-2 md:gap-3">
-                  <span className="text-blue-400">INSPIRE</span>
+                  <span className="text-blue-400">DISCOVER</span>
                   <span className="text-white">•</span>
-                  <span className="text-violet-400">CREATE</span>
+                  <span className="text-violet-400">DEVELOP</span>
                   <span className="text-white">•</span>
-                  <span className="text-indigo-400">INNOVATE</span>
+                  <span className="text-indigo-400">DELIVER</span>
                 </p>
 
                 {/* Register Button */}
