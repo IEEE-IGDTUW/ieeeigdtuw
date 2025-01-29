@@ -74,6 +74,7 @@ import banner2 from "@/assets/wieEvents/ieee_session.png"
 import banner3 from "@/assets/wieEvents/cybersecurity.png"
 import banner4 from "@/assets/wieEvents/3d_printing.png"
 import banner5 from "@/assets/wieEvents/arsh_goyal.png"
+import banner6 from "@/assets/wieEvents/gajendra_purohit.png"
 
 
 export const TEAM = [
@@ -447,14 +448,13 @@ export const SPEAKERS = [
   //   },
   // },
   {
-    name: 'Dr. Manpreet Kaur',
-    designation: 'Head of Department, CST | Member, WIE Delhi Section',
-    description: 'Dr. Manpreet Kaur is the Head of the Department of Computer Science & Technology at Manav Rachna University, with 15 years of academic experience. She is a strong advocate for women in STEM, having served as the past Chair of IEEE WIE Delhi Section (2019-2020). She actively promotes project-based learning and is a member of IEEE WIE and IEEE SIGHT Delhi Sections.',
-    image: speaker3,
+    name: 'Mr. Ramneek Kalra',
+    designation: 'IEEE Impact Creator | Cloud Support Engineer (AWS)',
+    description: "Mr. Ramneek Kalra is an IEEE Impact Creator with nearly 9 years of experience, dedicated to inspiring and motivating IEEE members and non-members alike. Through various media channels, he shares his expertise and advocates for IEEE's mission, while focusing on spreading awareness about digital branding and guidelines.",
+    image: speaker5,
     socials: {
-      linkedin: 'https://www.linkedin.com/in/dr-manpreet-kaur-smieee-94506a3a/',
-      Instagram: '',
-      twitter:'',
+      linkedin: 'https://www.linkedin.com/in/ramneekkalra/',
+      
     },
   },
   {
@@ -469,15 +469,17 @@ export const SPEAKERS = [
     },
   },
   {
-    name: 'Mr. Ramneek Kalra',
-    designation: 'IEEE Impact Creator | Cloud Support Engineer (AWS)',
-    description: "Mr. Ramneek Kalra is an IEEE Impact Creator with nearly 9 years of experience, dedicated to inspiring and motivating IEEE members and non-members alike. Through various media channels, he shares his expertise and advocates for IEEE's mission, while focusing on spreading awareness about digital branding and guidelines.",
-    image: speaker5,
+    name: 'Dr. Manpreet Kaur',
+    designation: 'Head of Department, CST | Member, WIE Delhi Section',
+    description: 'Dr. Manpreet Kaur is the Head of the Department of Computer Science & Technology at Manav Rachna University, with 15 years of academic experience. She is a strong advocate for women in STEM, having served as the past Chair of IEEE WIE Delhi Section (2019-2020). She actively promotes project-based learning and is a member of IEEE WIE and IEEE SIGHT Delhi Sections.',
+    image: speaker3,
     socials: {
-      linkedin: 'https://www.linkedin.com/in/ramneekkalra/',
-      
+      linkedin: 'https://www.linkedin.com/in/dr-manpreet-kaur-smieee-94506a3a/',
+      Instagram: '',
+      twitter:'',
     },
   },
+  
 ];
 
 
@@ -536,11 +538,11 @@ export const WIEEVENTS = [
     registerLink: 'https://forms.gle/b59JLAR5iCrRECPG6',
   },
   // {
-  //   eventBanner:banner5,
+  //   eventBanner:banner6,
   //   date: '31st January 2025',
-  //   title: 'Dr.Gajendra Purohit',
-  //   description: 'Dr. Gajendra Purohit (GP Sir), Founder of MathsCare, is a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With 1.6M+ YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of 6 books, he inspires students with his innovative teaching and motivational content.',
-  //   time:'12:00 PM - 2:00 PM',
+  //   title: 'Believe,Strive,Succeed: A Journey With Gajendra Purohit',
+  //   description:"Join us for this amazing session by Dr. Gajendra Purohit (GP Sir), the Founder of MathsCare, a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With over 1.6M YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of six books, he continues to inspire students with his innovative teaching and motivational content.",
+  //   time:'1:30 PM - 2:30 PM',
   //   venue:'Auditorium, IGDTUW',
   //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
   // },

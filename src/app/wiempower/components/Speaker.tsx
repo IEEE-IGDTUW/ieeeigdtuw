@@ -77,10 +77,6 @@ const SpeakerSection = () => {
                         </div>
                     ))}
                 </div>
-
-                <p className="text-lg text-gray-500 mt-4 text-center">
-                    More Speakers to be announced soon....
-                </p>
             </div>
         </section>
     );

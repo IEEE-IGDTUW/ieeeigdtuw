@@ -127,9 +127,6 @@ const Events: React.FC = () => {
                     </p>
                 </motion.div>
             </div>
-            <p className="text-lg text-gray-500 mt-4 text-center">
-                More Events to be announced soon , Stay Tuned....
-            </p>
         </div>
     );
 };
