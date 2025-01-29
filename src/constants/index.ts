@@ -73,7 +73,7 @@ import banner1 from "@/assets/wieEvents/tanu_jain.jpeg"
 import banner2 from "@/assets/wieEvents/ieee_session.png"
 import banner3 from "@/assets/wieEvents/cybersecurity.png"
 import banner4 from "@/assets/wieEvents/3d_printing.png"
-import banner5 from "@/assets/wieEvents/ngo_visit.png"
+import banner5 from "@/assets/wieEvents/arsh_goyal.png"
 
 
 export const TEAM = [
@@ -423,17 +423,17 @@ export const SPEAKERS = [
       twitter:'https://x.com/DrTanuJain1',
     },
   },
-  // {
-  //   name: 'Arsh Goyal',
-  //   designation: 'Senior Software Engineer | Samsung | LinkedIn Top Voice ‘24| Ex- ISRO | 250k+ YouTube & Instagram | 3x TEDx',
-  //   description: 'Arsh Goyal is a Senior Software Engineer at Samsung and a LinkedIn Top Voice 2024. With a background at ISRO and as an educator at Unacademy, he is also a prominent figure in the tech community, having made contributions to platforms like CodeChef. With a strong online presence of over 250k followers on YouTube and Instagram, Arsh is a 3x TEDx speaker, focusing on Gen AI and technology.',
-  //   image: speaker2,
-  //   socials: {
-  //     linkedin: 'https://www.linkedin.com/in/arshgoyal/',
-  //     Instagram: 'https://www.instagram.com/arshgoyalyt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-  //     twitter:'https://x.com/arsh_goyal',
-  //   },
-  // },
+  {
+    name: 'Arsh Goyal',
+    designation: 'Senior Software Engineer | Samsung | LinkedIn Top Voice ‘24| Ex- ISRO | 250k+ YouTube & Instagram | 3x TEDx',
+    description: 'Arsh Goyal is a Senior Software Engineer at Samsung and a LinkedIn Top Voice 2024. With a background at ISRO and as an educator at Unacademy, he is also a prominent figure in the tech community, having made contributions to platforms like CodeChef. With a strong online presence of over 250k followers on YouTube and Instagram, Arsh is a 3x TEDx speaker, focusing on Gen AI and technology.',
+    image: speaker2,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/arshgoyal/',
+      Instagram: 'https://www.instagram.com/arshgoyalyt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+      twitter:'https://x.com/arsh_goyal',
+    },
+  },
 
   // {
   //   name: 'Dr.Gajendra Purohit',
@@ -526,15 +526,15 @@ export const WIEEVENTS = [
     venue: 'Auditorium, IGDTUW',
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdf2edHCv_zwkXxT-JNR5HtUs7yS-ziKaJ8UKDWpNzJcM-WFw/viewform', 
   },
-  // {
-  //   eventBanner:banner5,
-  //   date: '28th January 2025',
-  //   title: 'Arsh Goyal',
-  //   description: 'Join us for an exciting session with Prof. Manpreet Kaur and Ramneek Kalra as they guide you on how to fuel your projects and boost your career with IEEE support. Learn how to secure IEEE funding, transform ideas into impactful projects, and how volunteering can build leadership and expand your network. Don’t miss this chance to connect, learn, and grow with IEEE!',
-  //   time: '12:00 PM - 2:00 PM',
-  //   venue: 'Auditorium, IGDTUW',
-  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform',
-  // },
+  {
+    eventBanner:banner5,
+    date: '30th January 2025',
+    title: 'Cracking the Code: Career Talks, Placements, and Internships with Arsh Goyal',
+    description: "Join us for this exciting session, where Arsh Goyal—Senior Software Engineer at Samsung and NIT Jalandhar Gold Medalist—shares his expert insights on landing top tech jobs, excelling in hackathons, and securing high-paying placements. Get no-nonsense career advice, industry secrets, and strategies to bridge the gap between college and the corporate world. Don't miss this opportunity to supercharge your career!",
+    time: '2:00 PM - 3:30 PM',
+    venue: 'Auditorium, IGDTUW',
+    registerLink: 'https://forms.gle/b59JLAR5iCrRECPG6',
+  },
   // {
   //   eventBanner:banner5,
   //   date: '31st January 2025',
