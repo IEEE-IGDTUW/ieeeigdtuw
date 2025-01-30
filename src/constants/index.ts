@@ -436,17 +436,17 @@ export const SPEAKERS = [
     },
   },
 
-  // {
-  //   name: 'Dr.Gajendra Purohit',
-  //   designation: 'Founder, MathsCare | Educator for IIT-JAM, CSIR NET GATE Motivational & TEDx Speaker | YouTuber (1.6M+ Subscribers) Author of 6 Best-Selling Books | Mathematics Expert with 20+ Years of Teaching Experience',
-  //   description: 'Dr. Gajendra Purohit (GP Sir), Founder of MathsCare, is a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With 1.6M+ YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of 6 books, he inspires students with his innovative teaching and motivational content.',
-  //   image: speaker6,
-  //   socials: {
-  //     linkedin: 'https://www.linkedin.com/in/dr-gajendra-purohit/',
-  //     Instagram: 'https://www.instagram.com/dr.gajendrapurohit/',
-  //     twitter:'https://x.com/gajendr94838832',
-  //   },
-  // },
+  {
+    name: 'Dr.Gajendra Purohit',
+    designation: 'Founder, MathsCare | Educator for IIT-JAM, CSIR NET GATE Motivational & TEDx Speaker | YouTuber (1.6M+ Subscribers) Author of 6 Best-Selling Books | Mathematics Expert with 20+ Years of Teaching Experience',
+    description: 'Dr. Gajendra Purohit (GP Sir), Founder of MathsCare, is a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With 1.6M+ YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of 6 books, he inspires students with his innovative teaching and motivational content.',
+    image: speaker6,
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/dr-gajendra-purohit/',
+      Instagram: 'https://www.instagram.com/dr.gajendrapurohit/',
+      twitter:'https://x.com/gajendr94838832',
+    },
+  },
   {
     name: 'Mr. Ramneek Kalra',
     designation: 'IEEE Impact Creator | Cloud Support Engineer (AWS)',
@@ -537,15 +537,14 @@ export const WIEEVENTS = [
     venue: 'Auditorium, IGDTUW',
     registerLink: 'https://forms.gle/b59JLAR5iCrRECPG6',
   },
-  // {
-  //   eventBanner:banner6,
-  //   date: '31st January 2025',
-  //   title: 'Believe,Strive,Succeed: A Journey With Gajendra Purohit',
-  //   description:"Join us for this amazing session by Dr. Gajendra Purohit (GP Sir), the Founder of MathsCare, a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With over 1.6M YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of six books, he continues to inspire students with his innovative teaching and motivational content.",
-  //   time:'1:30 PM - 2:30 PM',
-  //   venue:'Auditorium, IGDTUW',
-  //   registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeztFkUeLHfyGV4oyTjkOm0mJV9XSIKhU9_Ue7Te1R1N6H1Aw/viewform', 
-  // },
+  {
+    eventBanner:banner6,
+    date: '31st January 2025',
+    title: 'Believe,Strive,Succeed: A Journey With Gajendra Purohit',
+    description:"Join us for this amazing session by Dr. Gajendra Purohit (GP Sir), the Founder of MathsCare, a renowned Educator, TEDx Speaker, and YouTuber with 20+ years of teaching experience. With over 1.6M YouTube subscribers, he simplifies mathematics for competitive exams like IIT-JAM, CSIR NET, and GATE. A best-selling author of six books, he continues to inspire students with his innovative teaching and motivational content.",
+    time:'12:30 PM - 2:00 PM',
+    venue:'Auditorium, IGDTUW',
+  },
   {
     eventBanner:banner2,
     date: '28th January 2025',
