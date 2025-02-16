@@ -34,7 +34,7 @@ const Wiempower = () => {
                     <Header />
                     <Hero />
                     <About />
-                    <PastEvents />
+                    {/* <PastEvents /> */}
                     <Timeline />
                     <Theme />
                     <Events />
