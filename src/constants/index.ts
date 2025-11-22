@@ -3,7 +3,6 @@ import riyaJain from "@/assets/teamPic/2.jpg";
 import khushiKankheria from "@/assets/teamPic/3.jpg"; 
 import sakshiBhushan from "@/assets/teamPic/4.png"; 
 import anushreeJain from "@/assets/teamPic/5.jpg"; 
-import snehaRoychowdhury from "@/assets/teamPic/6.jpeg"; 
 import harshita from "@/assets/teamPic/7.jpg"; 
 import ishitaPahuja from "@/assets/teamPic/8.jpeg"; 
 import gunjanAggarwal from "@/assets/teamPic/9.jpeg"; 
@@ -22,7 +21,6 @@ import sonal from "@/assets/teamPic/21.jpeg";
 import pragati from "@/assets/teamPic/22.jpeg";
 import snehaYadav from "@/assets/teamPic/23.jpeg";
 import vidhiSaxena from "@/assets/teamPic/24.jpeg";
-import manya from "@/assets/teamPic/25.jpg";
 import hibaAli from "@/assets/teamPic/26.jpg";
 import dhwanisharma from "@/assets/teamPic/27.jpg";
 
@@ -122,10 +120,10 @@ export const TEAM = [
   },
   {
       role: "WIE General Secretary",
-      name: "Sneha Roychowdhury",
-      memberPic: snehaRoychowdhury, 
-      linkedin: "https://www.linkedin.com/in/snehaaroychowdhury",
-      instagram: "https://www.instagram.com/sneha.rchives/",
+      name: "Advika Singhal",
+      memberPic: advikaSinghal, 
+      linkedin: "https://www.linkedin.com/in/advika-singhal-ab97a7285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/_.adviikaaa_?igsh=MWh0YTZ3YWxsM2J1YQ==",
   },
   {
       role: "Sponsorship Head",
@@ -219,13 +217,6 @@ export const TEAM = [
     instagram: "https://www.instagram.com",
 },*/
   {
-      role: "Content Head",
-      name: "Advika Singhal",
-      memberPic: advikaSinghal, 
-      linkedin: "https://www.linkedin.com/in/advika-singhal-ab97a7285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      instagram: "https://www.instagram.com/_.adviikaaa_?igsh=MWh0YTZ3YWxsM2J1YQ==",
-  },
-  {
     role: "Content Head",
     name: "Sonal",
     memberPic: sonal, 
@@ -253,13 +244,7 @@ export const TEAM = [
       linkedin: "https://www.linkedin.com/in/vidhi-saxena-86150a243/",
       instagram: "https://www.instagram.com",
   },
-  {
-    role: "Media Head",
-    name: "Manya",
-    memberPic: manya, 
-    linkedin: "https://www.linkedin.com",
-    instagram: "https://www.instagram.com",
-},
+
   {
       role: "Membership & Research Head",
       name: "Hiba Ali",
