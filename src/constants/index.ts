@@ -23,7 +23,6 @@ import snehaYadav from "@/assets/teamPic/23.jpeg";
 import vidhiSaxena from "@/assets/teamPic/24.jpeg";
 import hibaAli from "@/assets/teamPic/26.jpg";
 import dhwanisharma from "@/assets/teamPic/27.jpg";
-
 import random1 from "@/assets/sliderPhotos/random_1.jpg";
 import random2 from "@/assets/sliderPhotos/random_2.jpg";
 import random3 from "@/assets/sliderPhotos/random_3.jpg";
