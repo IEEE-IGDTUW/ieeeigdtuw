@@ -19,8 +19,8 @@ const Hero: React.FC = () => {
 
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const emailTo = 'igdtuieee@gmail.com';
-    const ccEmail = 'igdtuieee@gmail.com';
+    const emailTo = 'ieeeigdtu@gmail.com';
+    const ccEmail = 'ieeeigdtu@gmail.com';
     const subject = encodeURIComponent('Contact from Website');
     const body = encodeURIComponent('Hello IEEE IGDTUW Team,');
 
