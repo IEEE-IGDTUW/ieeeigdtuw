@@ -46,7 +46,8 @@ const SOCIALS = [
 ];
 
 const WIEMPOWER_VERSIONS = [
-    { version: "5.0", url: "https://ieee-igdtuw.github.io/ieeeigdtuw/wiempower" },
+    { version: "7.0", url: "https://wiempower-7-0.vercel.app" },
+    { version: "6.0", url: "https://ieee-igdtuw.github.io/ieeeigdtuw/wiempower" },
     { version: "4.0", url: "https://ieee-igdtuw.github.io/wie-website/index.html" },
     { version: "3.0", url: "https://igdtuw19ieee.github.io/WIEmpower/colorlib.com/preview/theme/plataforma/index.html" },
     { version: "2.0", url: "https://igdtuw19ieee.github.io/WIEmpower/colorlib.com/preview/theme/plataforma/about2.html" },

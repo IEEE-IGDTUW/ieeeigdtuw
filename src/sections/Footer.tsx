@@ -131,8 +131,8 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     Email:{" "}
-                                    <a href="mailto:igdtuieee@gmail.com" className="underline">
-                                        igdtuieee@gmail.com
+                                    <a href="mailto:ieeeigdtu@gmail.com" className="underline">
+                                        ieeeigdtu@gmail.com
                                     </a>
                                 </p>
                             </div>
