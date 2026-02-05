@@ -17,7 +17,7 @@ import diyaTyagi from "@/assets/teamPic/17.jpeg";
 import khushiChoudhary from "@/assets/teamPic/18.jpeg"; 
 //import enakshi from "@/assets/teamPic/19.jpg";
 import advikaSinghal from "@/assets/teamPic/20.png";
-import sonal from "@/assets/teamPic/21.jpeg";
+import parnika from "@/assets/teamPic/21.jpeg";
 import pragati from "@/assets/teamPic/22.jpeg";
 import snehaYadav from "@/assets/teamPic/23.jpeg";
 import vidhiSaxena from "@/assets/teamPic/24.jpeg";
@@ -217,10 +217,10 @@ export const TEAM = [
 },*/
   {
     role: "Content Head",
-    name: "Sonal",
-    memberPic: sonal, 
-    linkedin: "https://www.linkedin.com/in/sonaligdtuw?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    instagram: "https://www.instagram.com",
+    name: "Parnika Singh",
+    memberPic: parnika, 
+    linkedin: "https://www.linkedin.com/in/parnika-singh-7b559b288/",
+    instagram: "https://www.instagram.com/par.17nika/",
 },
   {
       role: "Technical Head",
